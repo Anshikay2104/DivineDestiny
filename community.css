@@ -1,0 +1,78 @@
+.navbar {
+    background-color: teal;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.26), 0 4px 6px rgba(0,0,0,0.45);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 17%;
+    height: 100%;
+  }
+  
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .navbar li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar a {
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .navbar {
+      position: relative;
+    }
+    .navbar ul {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      display: none;
+    }
+    .navbar li {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+    .navbar a {
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+    }
+    .navbar a:hover {
+      background-color: #ddd;
+      color: #333;
+    }
+    .navbar li:hover ul {
+      display: block;
+    }
+  }
+  .total{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  .Mainbox{
+    border: 1px solid;
+    padding-right: 330px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.26), 0 4px 6px rgba(0,0,0,0.45);
+    border-radius: 10px;
+  }
+  .maintext{
+    text-align: center;
+    margin-top: 10px;
+  }

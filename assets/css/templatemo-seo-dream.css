@@ -182,7 +182,7 @@ body {
 .section-heading h6 {
   font-size: 15px;
   font-weight: 700;
-  color: #33ccc5;
+  color: #03a090;
   text-transform: uppercase;
   margin-bottom: 15px;
 
@@ -200,7 +200,7 @@ body {
 
 .section-heading h2 em {
   font-style: normal;
-  color: #33ccc5;
+  color: #720c33;
 }
 
 .section-heading h2 span {
@@ -227,27 +227,6 @@ body {
   border-bottom: 2px solid #4771cb!important;
 }
 
-.main-green-button a {
-  display: inline-block;
-  background-color: #33ccc5;
-  font-size: 15px;
-  font-weight: 400;
-  color: #fff;
-  text-transform: capitalize;
-  padding: 12px 25px;
-  border-radius: 23px;
-  letter-spacing: 0.25px;
-  border-bottom: 2px solid #4771cb!important;
-  transition: all .3s;
-}
-
-.main-green-button a:hover {
-  background-color: #4771cb!important;
-  color: #fff!important;
-  border-bottom: 2px solid #33ccc5!important;
-}
-
-
 /* 
 ---------------------------------------------
 header
@@ -255,7 +234,7 @@ header
 */
 
 .background-header {
-  background-color: #33ccc5!important;
+  background-color:#720c33 !important;
   height: 80px!important;
   position: fixed!important;
   top: 0px;
@@ -270,7 +249,7 @@ header
 }
 
 .background-header .main-nav .nav li:hover a {
-  color: #33ccc5;
+  color: #720c33;
 }
 
 .background-header .nav li a.active {
@@ -290,7 +269,7 @@ header
 }
 
 .header-area {
-  background-color: #33ccc5;
+  background-color: #720c33;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -856,7 +835,7 @@ Banner Style
 
 .main-banner:after {
   content: '';
-  background-image: url(../images/banner-dec-left.png);
+  background-image: url('indback.jpeg');
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -868,7 +847,7 @@ Banner Style
 
 .main-banner:before {
   content: '';
-  background-image: url(../images/banner-dec-right.png);
+  background-image: url('indback.jpeg');
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -897,22 +876,30 @@ Banner Style
   font-size: 20px;
   color: #2a2a2a;
 }
-
-.main-banner .left-content h2 {
-  border-top: 1px solid #eee;
-  margin-top: 30px;
+.mainhead h2{
+  margin-top: 10px;
   padding-top: 20px;
   margin-bottom: 45px;
-  font-size: 60px;
-  font-weight: 800;
-  color: #2a2a2a;
-  line-height: 72px;
-  background: #FA9D4D;
-  background: -webkit-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: -moz-linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
-  background: linear-gradient(to right, #FA9D4D 0%, #FF4F6B 100%);
+  font-size: 30px;
+  font-weight: 600;
+  font-family:cursive;
+  color: #a44e02;
+  width: 800px;
+  text-align: justify;
+  /* background: -webkit-linear-gradient(to right, #112ed0 0%, #a14fff 100%);
+  background: -moz-linear-gradient(to right, #112ed0 0%, #a14fff 100%);
+  background: linear-gradient(to right, #112ed0 0%, #a14fff 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;  */
+}
+.short h2{
+  /* margin-top: 100px; */
+  padding-top: 20px;
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-weight: 800;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:#720c33 ;
 }
 
 .main-banner .right-image {
@@ -1014,7 +1001,7 @@ Features Style
 }
 
 .first-feature .icon {
-  background-image: url(../images/features-icon-black-01.png);
+  background-image: url('snow.png');
 }
 
 .second-feature .icon {
@@ -1413,8 +1400,8 @@ Portfolio
   position: absolute;
   left: 0;
   top: 0;
-  background: rgb(51,204,197);
-  background: linear-gradient(105deg, rgba(51,204,197,1) 0%, rgba(8,141,195,1) 100%);
+  background: rgb(51, 204, 61);
+  background: linear-gradient(105deg, rgb(115, 204, 51) 0%, rgb(67, 8, 195) 100%);
   width: 100%;
   height: 100%;
   opacity: 0;
