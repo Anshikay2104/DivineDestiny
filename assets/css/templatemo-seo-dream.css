@@ -824,6 +824,19 @@ Banner Style
 --------------------------------------------- 
 */
 
+.main-banner{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row h2{
+  padding-left:40px;
+}
+.map img{
+  padding-right: 0px;
+  width: 600px;
+}
+
 .main-banner {
   background-repeat: no-repeat;
   background-position: center center;
